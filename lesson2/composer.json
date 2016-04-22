@@ -1,0 +1,19 @@
+{
+    "name": "root/lesson2",
+    "description": "example DI",
+    "type": "php",
+    "license": "unknown",
+    "authors": [
+        {
+            "name": "nhu",
+            "email": "nhund@vnvalley.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

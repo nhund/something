@@ -1,0 +1,20 @@
+{
+    "name":"root/lesson",
+    "description": "hello",
+    "type": "php",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nhu",
+            "email": "nhu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
+ 

@@ -1,0 +1,17 @@
+<?php
+require "./vendor/autoload.php";
+require "form.html";
+
+use Test\Generation;
+
+if (isset($_POST['submit']) != "") { 
+	$num = (int)$_POST['nhapso'];
+	echo "<h3>Mảng bản là</h3>";
+	$Gen = new Generation();
+	$arr = $Gen->run($num);
+	//in mảng ra
+	echo "<pre>";
+	print_r($arr);
+	echo "<pre>";	
+}
+
